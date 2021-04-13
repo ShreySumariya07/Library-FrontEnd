@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Carousel from './UI/Carousel';
+import Navbars from './UI/Navbar';
+import HomePage from './UI/HomePage';
+import BookCard from './UI/BookCard';
+import LoginPage from './UI/Login';
+import CheckInModal from './UI/DetailModal';
+import Details from './UI/DetailModal';
+import SignUpPage from './UI/SignUp';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <SignUpPage/>
     </div>
+    
   );
 }
 
